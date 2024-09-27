@@ -1,0 +1,29 @@
+{
+  "text": "\nThis repo is a fork of the original Hugging Face Wikipedia repo here.\nThe difference is that this fork does away with the need for apache-beam,\n and this fork is very fast if you have a lot of CPUs on your machine. \n It will use all CPUs available to create a clean Wikipedia pretraining dataset. \n It takes less than an hour to process all of English wikipedia on a GCP \n n1-standard-96. This fork is also used in the OLM Project to pull and \n process up-to-date wikipedia snapshots.\n",
+  "entities": [
+    {
+      "entity_text": "Wikipedia",
+      "start": 267,
+      "end": 276,
+      "label": "ORG"
+    },
+    {
+      "entity_text": "less than an hour",
+      "start": 309,
+      "end": 326,
+      "label": "TIME"
+    },
+    {
+      "entity_text": "English",
+      "start": 345,
+      "end": 352,
+      "label": "LANGUAGE"
+    },
+    {
+      "entity_text": "GCP \n ",
+      "start": 368,
+      "end": 374,
+      "label": "ORG"
+    }
+  ]
+}
