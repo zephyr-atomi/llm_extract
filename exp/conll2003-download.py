@@ -24,3 +24,4 @@ ner_labels = [ner_tags[id] for id in ner_tag_ids]
 
 print("Tokens:", tokens)
 print("NER Tags:", ner_labels)
+print("All NER tag:", ner_tags)
